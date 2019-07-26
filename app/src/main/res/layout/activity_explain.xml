@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_explain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="none"
+    tools:context="com.example.administrator.words.Explain"
+    android:background="@drawable/icon_fragment_bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="
+1.首页取的ID会在登录后显示在右上方。
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="
+2.在主界面，点击“录入”、“背诵”、“个人中心”、“复习”会显示不同的面板。
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="
+3.在“录入”界面点击“录入”按钮会把单词录入到“背诵单词库”与“单词库”中。
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="
+4.录入时，如果单词以ion、ment等标志性名词结尾，录入时翻译前面会自动补充“n. ”。翻译以“的”等结尾，录入后翻译前自动补充“adj. ”，以“地”结尾，自动补充“adv. ”。
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="
+5.在“背诵”和“复习”界面点击“认识”会删除该单词，点击“不认识”会显示翻译，点击“下一个”会显示下个单词。
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="
+6.在“个人中心”界面，为了更方便查看单词，点击“背诵单词库”，显示待背诵的所有单词。点击“复习单词库”，显示待复习的所有单词。点击“单词库”，显示加入过的所有单词。
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="
+7.“背诵单词库”和“复习单词库”只用于快捷查看库中单词，不能进行操作。
+"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="
+8.“单词库”中为加入过的所有单词，不会被删除，长按某个单词，会把该单词重新加入到“背诵单词库”等待背诵。点击单词可进行修改。
+
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="
+9.“Difficult单词库”中为加入输入多次的单词，比如一个单词输入了三次。
+
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="
+10.“查词”界面可以查询“英译汉”和“汉译英”，并添加单词到单词库中。
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="
+11.提醒：鉴于“单词库”中单词不会被删除，因此软件会随着单词录入增多而占用内存增大，不过不用太过担心，应该不会超过100M。
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</ScrollView>
